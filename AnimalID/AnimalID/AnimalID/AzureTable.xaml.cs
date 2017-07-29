@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AnimalID.DataModels;
+using Microsoft.WindowsAzure.MobileServices;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -12,15 +14,23 @@ using Xamarin.Forms.Xaml;
 
 namespace AnimalID
 {
-
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AzureTable : ContentPage
     {
+        MobileServiceClient client = AzureManager.AzureManagerInstance.AzureClient;
         public AzureTable()
         {
             InitializeComponent();
 
         }
+        async void Handle_ClickedAsync(object sender, System.EventArgs e)
+        {
+            List<Animalinformation> Animalyoyo = await AzureManager.AzureManagerInstance.Getmyanimals();
+
+            AnimalList.ItemsSource = Animalyoyo;
+        }
+
     }
     
+
 }

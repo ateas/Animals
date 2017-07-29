@@ -125,5 +125,15 @@ C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\AnimalID.Android.dll.config
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\AnimalID.dll.config
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\AnimalID.Android.dll.mdb
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\AnimalID.Android.dll.mdb

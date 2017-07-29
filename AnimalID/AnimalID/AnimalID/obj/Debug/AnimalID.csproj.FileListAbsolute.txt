@@ -14,11 +14,6 @@ C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\System.N
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Xamarin.iOS.dll
-C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\System.dll
-C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\System.Core.dll
-C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\System.Xml.dll
-C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Mono.Dynamic.Interpreter.dll
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Newtonsoft.Json.xml
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Plugin.Media.pdb
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Plugin.Media.xml
@@ -29,6 +24,14 @@ C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Xamarin.
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Xamarin.iOS.xml
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\AnimalID.dll.config
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\System.Net.Http.xml
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\obj\Debug\AnimalID.csproj.App.config
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\obj\Debug\AnimalID.dll.mdb
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\AnimalID.dll.mdb
