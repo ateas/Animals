@@ -101,6 +101,7 @@ class MonoPackageManager_Resources {
 		"AnimalID.Android.dll",
 		"AnimalID.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Media.Abstractions.dll",
 		"Plugin.Media.dll",
