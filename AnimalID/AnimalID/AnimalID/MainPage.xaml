@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:AnimalID"
-             x:Class="AnimalID.MainPage">
+<TabbedPage
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local ="clr-namespace:AnimalID"
+    x:Class="AnimalID.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
-</ContentPage>
+    <NavigationPage Title="Information">
+        <x:Arguments>
+            <local:AzureTable />
+        </x:Arguments>
+    </NavigationPage>
+    <local:CustomVision />
+</TabbedPage>
