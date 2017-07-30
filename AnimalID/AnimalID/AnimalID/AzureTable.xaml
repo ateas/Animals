@@ -2,26 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AnimalID.AzureTable"
-             Title="AzureTable">
-    <!--
-    <ScrollView>
-    <StackLayout Padding="10">
-        <Label Text="ContentPage" FontSize="40"/>
-        <Label Text="ContentPage is the simplest type of page."/>
-        <Label Text="The content of the ContentPage is generally a layout of some sort that can be a parent to multiple children."/>
-        <Label Text="This contant page contains a StackLayout, which in turn contains a few Label views (including the large one on the top and an example of handling click commands and data binding to a Label below)."/>
-      
-    </StackLayout>
-    </ScrollView>
-    -->
+             Title="Animal Identifier">
+    
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
     </ContentPage.Padding>
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="See Photo Information" TextColor="White" BackgroundColor="SlateBlue" Clicked="Handle_ClickedAsync" />
+            <Button HeightRequest="75" Text="See Photo Information" TextColor="White" BackgroundColor="SlateBlue" Clicked="Handle_ClickedAsync" />
+            <Label x:Name="yoyo" Text="Display the Longitude and Latitude of the database entry" FontSize="15" Margin="15,0,20,20" HorizontalOptions="CenterAndExpand" ></Label>
+            <BoxView BackgroundColor="White" HeightRequest="1" Margin="0,-8,0,0" />
             <ActivityIndicator x:Name="loader" IsRunning = "False" IsVisible="False"/>
-            <Label x:Name="yoyo" Text="Display the Longitude and Latitude of the database entry" FontSize="15" Margin="15,0,20,20" HorizontalOptions="CenterAndExpand"></Label>
+            
           
             <ListView x:Name="AnimalList" HasUnevenRows="True">
                 

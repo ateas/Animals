@@ -5,7 +5,7 @@
     xmlns:local ="clr-namespace:AnimalID"
     x:Class="AnimalID.MainPage">
 
-    <NavigationPage Title="Information">
+    <NavigationPage Title="Easy Tables">
         <x:Arguments>
             <local:AzureTable />
         </x:Arguments>

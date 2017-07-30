@@ -40,3 +40,7 @@ C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Plugin.G
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\Plugin.Geolocator.Abstractions.pdb
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\obj\Debug\AnimalID.dll.mdb
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\AnimalID.dll.mdb
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\obj\Debug\AnimalID.dll.mdb
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\AnimalID.dll.mdb
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\obj\Debug\AnimalID.dll.mdb
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID\bin\Debug\AnimalID.dll.mdb

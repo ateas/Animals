@@ -1,13 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AnimalID.CustomVision" Title="Custom Vision">
-    <StackLayout Margin="20" Orientation="Vertical">
-        <Button Text="Take Photo and Analyze" Clicked="LoadCamera" />
-        <StackLayout Orientation="Horizontal">
-            <Label x:Name="TagLabel">
-            </Label>
-            <Label x:Name="PredictionLabel">
-            </Label>
+    <ScrollView>
+        <StackLayout Margin="20" Orientation="Vertical">
+            <Button HeightRequest="75" Text="Take Photo and Analyze" TextColor="White" BackgroundColor ="SlateBlue" Clicked="LoadCamera" />
+            <ActivityIndicator x:Name="loader" IsRunning = "False" IsVisible="False"/>
+            <StackLayout Orientation="Horizontal">
+                <Label x:Name="TagLabel" Text ="Take a picture of an animal and we will see if we can identify that animal" FontSize="17" Margin="10" >
+                </Label>
+                <Label x:Name="PredictionLabel">
+                </Label>
+            </StackLayout>
+            <Image x:Name="image" Margin="0,0,0,20" Aspect="AspectFit"/>
         </StackLayout>
-        <Image x:Name="image" Aspect="AspectFit"/>
-    </StackLayout>
+    </ScrollView>
 </ContentPage>

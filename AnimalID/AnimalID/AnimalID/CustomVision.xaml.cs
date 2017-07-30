@@ -34,6 +34,7 @@ namespace AnimalID
 
         private async void LoadCamera(object sender, EventArgs e)
         {
+
             await CrossMedia.Current.Initialize();
 
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
@@ -56,6 +57,8 @@ namespace AnimalID
             {
                 return file.GetStream();
             });
+            loader.IsRunning = true;
+            loader.IsVisible = true;
             await postLocationAsync();
             
 
@@ -90,6 +93,7 @@ namespace AnimalID
 
         async Task MakePredictionRequest(MediaFile file)
         {
+            
             Contract.Ensures(Contract.Result<Task>() != null);
             var client = new HttpClient();
 
@@ -123,6 +127,9 @@ namespace AnimalID
                     TagLabel.Text = (responseModel.Predictions[max].Probability >= 0.5) ? "This image most probably contains a " + responseModel.Predictions[max].Tag + ". We say this with a probability of " + responseModel.Predictions[max].Probability : "Sorry we cannot identify that animal";
                 }
             }
+
+            loader.IsRunning = false;
+            loader.IsVisible = false;
 
         }
 
