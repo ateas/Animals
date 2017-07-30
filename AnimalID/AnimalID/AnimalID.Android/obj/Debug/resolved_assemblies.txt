@@ -5,6 +5,8 @@ C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Microsoft.WindowsAzure.Mobile.Ext.dll
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Plugin.CurrentActivity.dll
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Plugin.Geolocator.Abstractions.dll
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Plugin.Geolocator.dll
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Plugin.Media.Abstractions.dll
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Plugin.Media.dll
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll

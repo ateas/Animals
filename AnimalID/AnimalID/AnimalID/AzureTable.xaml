@@ -19,14 +19,23 @@
     </ContentPage.Padding>
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="See Photo Information" TextColor="White" BackgroundColor="Red" Clicked="Handle_ClickedAsync" />
-            <Label x:Name="yoyo" Text= "dfgdfg"></Label>
+            <Button Text="See Photo Information" TextColor="White" BackgroundColor="SlateBlue" Clicked="Handle_ClickedAsync" />
+            <ActivityIndicator x:Name="loader" IsRunning = "False" IsVisible="False"/>
+            <Label x:Name="yoyo" Text="Display the Longitude and Latitude of the database entry" FontSize="15" Margin="15,0,20,20" HorizontalOptions="CenterAndExpand"></Label>
+          
             <ListView x:Name="AnimalList" HasUnevenRows="True">
+                
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout Orientation="Horizontal">
-                                <Label Text="{Binding Longitude, StringFormat='Longitude: {0:N}'}" HorizontalOptions="FillAndExpand" Margin="20,0,0,0" VerticalTextAlignment="Center" />
+                       
+                            <StackLayout Orientation="Horizontal"
+                                         Padding="16,12">
+                                <Label Text="{Binding Longitude, StringFormat='Longitude: {0:N}'}" 
+                                       HorizontalOptions="FillAndExpand" 
+                                       Margin="0,0,0,0" 
+                                       
+                                       VerticalTextAlignment="Center" />
                                 <Label Text="{Binding Latitude, StringFormat='Latitude: {0:N}'}" VerticalTextAlignment="Center" Margin="0,0,20,0" />
                             </StackLayout>
                         </ViewCell>

@@ -1,4 +1,5 @@
-﻿using AnimalID.Model;
+﻿using Plugin.Geolocator;
+using AnimalID.Model;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Plugin.Media;
@@ -18,6 +19,7 @@ using System.Windows.Input;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using AnimalID.DataModels;
 
 namespace AnimalID
 {
@@ -54,10 +56,29 @@ namespace AnimalID
             {
                 return file.GetStream();
             });
-
-            TagLabel.Text = "asd";
+            await postLocationAsync();
+            
 
             await MakePredictionRequest(file);
+        }
+
+        async Task postLocationAsync()
+        {
+
+            var locator = CrossGeolocator.Current;
+            locator.DesiredAccuracy = 50;
+
+            var position = await locator.GetPositionAsync(TimeSpan.FromSeconds(10));
+
+            Animalinformation model = new Animalinformation()
+            {
+               
+                Longitude = (float)position.Longitude,
+                Latitude = (float)position.Latitude
+
+            };
+
+            await AzureManager.AzureManagerInstance.PostAnimalInformation(model);
         }
 
         static byte[] GetImageAsByteArray(MediaFile file)

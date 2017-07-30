@@ -45,5 +45,20 @@ namespace AnimalID
         {
             return await this.AnimalTable.ToListAsync();
         }
+
+        public async Task PostAnimalInformation(Animalinformation Animalinformation)
+        {
+            await this.AnimalTable.InsertAsync(Animalinformation);
+        }
+
+        public async Task UpdateAnimalInformation(Animalinformation Animalinformation)
+        {
+            await this.AnimalTable.UpdateAsync(Animalinformation);
+        }
+
+        public async Task DeleteAnimalInformation(Animalinformation Animalinformation)
+        {
+            await this.AnimalTable.DeleteAsync(Animalinformation);
+        }
     }
 }

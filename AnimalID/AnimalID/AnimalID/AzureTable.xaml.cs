@@ -25,10 +25,17 @@ namespace AnimalID
         }
         async void Handle_ClickedAsync(object sender, System.EventArgs e)
         {
+            loader.IsRunning = true;
+            loader.IsVisible = true;
             List<Animalinformation> Animalyoyo = await AzureManager.AzureManagerInstance.Getmyanimals();
 
             AnimalList.ItemsSource = Animalyoyo;
+            loader.IsRunning = false;
+            loader.IsVisible = false;
+            
         }
+
+       
 
     }
     

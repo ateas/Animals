@@ -105,6 +105,8 @@ class MonoPackageManager_Resources {
 		"Microsoft.WindowsAzure.Mobile.Ext.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
+		"Plugin.Geolocator.Abstractions.dll",
+		"Plugin.Geolocator.dll",
 		"Plugin.Media.Abstractions.dll",
 		"Plugin.Media.dll",
 		"Plugin.Permissions.Abstractions.dll",

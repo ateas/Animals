@@ -54,5 +54,9 @@
 	<string>This app needs access to photos.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app needs access to microphone.</string>
+	<key>NSLocationWhenInUsageDescription </key>
+	<string>This app needs access to your location for uploading to database</string>
+	<key>NSLocationAlwaysUsageDescription </key>
+	<string>This app needs access to your location for uploading to database</string>
 </dict>
 </plist>

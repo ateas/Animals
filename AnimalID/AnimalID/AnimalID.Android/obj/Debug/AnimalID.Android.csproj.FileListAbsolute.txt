@@ -135,5 +135,12 @@ C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\System.Net.Http.Extensions.xml
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\Plugin.Geolocator.Abstractions.dll
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\Plugin.Geolocator.dll
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\Plugin.Geolocator.pdb
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\Plugin.Geolocator.xml
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\Plugin.Geolocator.Abstractions.pdb
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\Plugin.Geolocator.dll.mdb
+C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\android\assets\Plugin.Geolocator.dll.mdb
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\obj\Debug\AnimalID.Android.dll.mdb
 C:\Users\AbinT\Desktop\MSA\Animals\AnimalID\AnimalID\AnimalID.Android\bin\Debug\AnimalID.Android.dll.mdb
